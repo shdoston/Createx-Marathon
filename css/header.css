@@ -1,0 +1,87 @@
+/* ubuntu-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ubuntu-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* ubuntu-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ubuntu-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.header-container {
+  background-color: #f4f5f6;
+  padding-left: 345px;
+  padding-top: 36px;
+}
+.header-container__start {
+  display: flex;
+  align-items: center;
+}
+.heder-img {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 60px;
+  color: #424551;
+  gap: 50px;
+}
+.header-link {
+}
+
+.header-container__end {
+  display: flex;
+  align-items: center;
+  margin-left: 172px;
+}
+.header-container__end-text {
+  margin: 36px;
+}
+.header-btn_list {
+  display: flex;
+  gap: 10px;
+}
+.header-btn__list1 {
+  color: #424551;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.header-btn__title {
+  color: #1e212c;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  line-height: 93px;
+  font-size: 73px;
+  margin-bottom: 25px;
+}
+.header-btn__text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #787a80;
+  padding-bottom: 179px;
+  padding-right: 975px;
+}
+
+.header-btn__img {
+}

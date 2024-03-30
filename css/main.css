@@ -1,0 +1,114 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__cantainer {
+  flex-direction: column;
+  display: flex;
+  background-color: #FFFFFF;
+  /* padding-left: 345px; */
+  /* padding-right: 315px; */
+  gap: 100px;
+}
+.main__cantainer1 {
+  padding-top: 120px;
+  display: flex;
+  gap: 80px;
+  padding-left: 345px;
+  padding-right: 315px;
+}
+.main__cantainer__title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #1e212c;
+  padding-bottom: 24px;
+}
+.main__cantainer__text {
+  font-family: "Ubuntu", sans-serif;
+
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #787a80;
+  padding-bottom: 45px;
+  padding-right: ;
+}
+.main__cantainer__link {
+  padding-left: 32px;
+  padding-right: 32px;
+  color: #ff5a30;
+}
+/* 2 */
+.main__cantainer2 {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 345px;
+  padding-right: 315px;
+}
+.main__cantainer2__titl {
+  font-family: "Ubuntu", sans-serif;
+  color: #1e212c;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.main__cantainer2__text {
+  font-family: " Ubuntu", sans-serif;
+  color: #787a80;
+
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+/* 3 */
+.main__cantainer3 {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 345px;
+  padding-right: 315px;
+}
+.main__cantainer3__title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1e212c;
+}
+.main__cantainer3__text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #787a80;
+}
+/* 4 */
+.main__cantainer4 {
+  display: flex;
+  gap:100px ;
+  align-items:center;
+  padding-top: 120px;
+  padding-left: 345px;
+  padding-right: 315px;
+}
+.main__cantainer4__title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color:#1E212C ;
+}
+.main__cantainer4__text{
+    font-family:"Ubuntu", sans-serif ;
+    font-size:16px ;
+    line-height:26px ;
+    font-weight:400 ;
+    color:#787A80;
+}
