@@ -1,21 +1,132 @@
+ul,
+ol {
+  list-style: none;
+}
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 85px;
+}
+.footer-container__start {
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 826px;
+  background-image: url(../servis/img/image\ \(789.svg);
+}
+.footer-container2 {
+  width: 495px;
+  height: 700px;
+  background-color: #ffffff;
+  margin-left: 1080px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+}
+.footer-container__start-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 28px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #1e212c;
+  padding-top: 50px;
+}
+.footer_soical {
+  font-family: " Ubuntu", sans-serif;
+  color: #424551;
+
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-input {
+  font-family: "Ubuntu", sans-serif;
+  color: #9a9ca5;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 16px;
+  padding-right: 277px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #d7dadd;
+  border-radius: 5px;
+}
+.footer-input__text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #424551;
+}
+.footer-input__link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #ff5a30;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-left: 161px;
+  margin-top: 25px;
+}
+.footer-containerd {
+  display: flex;
 }
 .footer-container {
-    display: flex;
-    padding-left: 345px;
-    padding-right: 315px;
-    align-items: center;
-    justify-content: center;
-  background-color: #2a2c1e;
-  padding-top: 82px;
+  background-color: #1e212c;
+  padding-left: 375px;
+  padding-right: 375px;
+  padding-top: 80px;
+}
+.footer-btn5 {
+}
+.footer-container__img {
+}
+.footer-container__logo {
+  margin-right: 60px;
+  margin-bottom: 24px;
+}
+.footer-img {
+  gap: 16px;
+  margin-bottom: 24px;
 }
 .footer-container__img-text {
   color: #fff;
   font-family: "Ubuntu", sans-serif;
-
+  padding-bottom: 73px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
+  opacity: 0.6;
+}
+.footer_end__btn0 {
+  font-family: " Ubuntu", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-top: 73px;
+}
+
+.footer_end__btn {
+  display: flex;
+  flex-direction: column;
+}
+.foooter-list-b {
+  display: flex;
+}
+.footer-btn__list {
+  font-family: " Ubuntu", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
 }
 .footer-container__right {
   margin-left: 242px;
@@ -31,9 +142,9 @@
   padding-top: 12px;
   padding-left: 16px;
   padding-bottom: 12px;
-  padding-right: ;
+  padding-right: 200px;
   background-color: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
 }
 .footer-container__right-text {
   font-family: "Ubuntu", sans-serif;
@@ -41,4 +152,60 @@
   font-size: 12px;
   line-height: 28px;
   font-weight: 400;
+  opacity: 0.6;
+}
+.foooter-btn9 {
+  display: flex;
+  padding-top: 50px;
+  /* align-items: center; */
+}
+.foooter-btn8 {
+  padding-right: 125px;
+}
+.footerh3 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.foooter-btnp {
+  display: flex;
+  align-items: center;
+}
+.foooter-btnm {
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.foooter-btn7 {
+  padding-right: 125px;
+}
+.foooter-btnd {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.footer-love {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.footer-love__text {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer-love5 {
+  margin-left: 704px;
+  color: #ffffff;
 }

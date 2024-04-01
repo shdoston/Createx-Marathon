@@ -37,9 +37,17 @@
   padding-right: ;
 }
 .main__cantainer__link {
-  padding-left: 32px;
+  font-family: "Ubuntu",sans-serif ;
+  border-radius: 5px;
+  font-size:14px ;
+  line-height:44px ;
+  font-weight:700 ;
+  border: 2px solid #ff5a30;
   padding-right: 32px;
-  color: #ff5a30;
+  padding-left: 32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:#ff5a30 ;
 }
 /* 2 */
 .main__cantainer2 {
@@ -53,7 +61,6 @@
 .main__cantainer2__titl {
   font-family: "Ubuntu", sans-serif;
   color: #1e212c;
-
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
@@ -61,7 +68,8 @@
 .main__cantainer2__text {
   font-family: " Ubuntu", sans-serif;
   color: #787a80;
-
+  
+  padding-bottom: 48px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -88,6 +96,7 @@
   line-height: 26px;
   font-weight: 400;
   color: #787a80;
+  padding-bottom: 48px;
 }
 /* 4 */
 .main__cantainer4 {
@@ -111,4 +120,5 @@
     line-height:26px ;
     font-weight:400 ;
     color:#787A80;
+    padding-bottom: 48px;
 }

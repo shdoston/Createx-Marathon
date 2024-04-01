@@ -14,17 +14,32 @@
   font-weight: 700;
   src: url("../fonts/ubuntu-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+ul,
+li {
+  list-style: none;
+
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  
+}
 .header {
   display: flex;
-  align-items: center;
   justify-content: center;
-  z-index: -1;
+  align-items: center;
+  /* z-index: -1; */
 }
 
 .header-container {
   background-color: #f4f5f6;
   padding-left: 345px;
   padding-top: 36px;
+  height: 570px;
+  background-image: url(../servis/img/bacrund-img1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 975px, 600px;
 }
 .header-container__start {
   display: flex;
@@ -44,6 +59,7 @@
   gap: 50px;
 }
 .header-link {
+  text-decoration: none;
 }
 
 .header-container__end {
