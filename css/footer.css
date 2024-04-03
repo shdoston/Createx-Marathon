@@ -16,13 +16,14 @@ ol {
   background-image: url(../servis/img/image\ \(789.svg);
 }
 .footer-container2 {
-  width: 495px;
-  height: 700px;
   background-color: #ffffff;
+
   margin-left: 1080px;
+  margin-right: 345px;
+  margin-top: 80px;
+  border-radius: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  border-radius: 5px;
 }
 .footer-container__start-title {
   font-family: "Ubuntu", sans-serif;
@@ -30,15 +31,16 @@ ol {
   line-height: 41px;
   font-weight: 700;
   color: #1e212c;
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
 .footer_soical {
   font-family: " Ubuntu", sans-serif;
   color: #424551;
-
   line-height: 21px;
   font-size: 14px;
   font-weight: 400;
+  padding-bottom: 15px;
 }
 .footer-input {
   font-family: "Ubuntu", sans-serif;
@@ -48,10 +50,13 @@ ol {
   font-weight: 400;
   padding-left: 16px;
   padding-right: 277px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
   background-color: #d7dadd;
   border-radius: 5px;
+  width: 415px;
+  height: 44px;
+  margin-bottom: 10px;
 }
 .footer-input__text {
   font-family: "Ubuntu", sans-serif;
@@ -69,10 +74,10 @@ ol {
   padding-left: 32px;
   padding-right: 32px;
   background-color: #ff5a30;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-  margin-left: 161px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 48px;
+  margin-left: 121px;
   margin-top: 25px;
 }
 .footer-containerd {

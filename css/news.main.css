@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul ol {
+  list-style: none;
+}
+.main {
+}
+.main-container {
+  background-color: #ffffff;
+  padding-left: 345px;
+  padding-right: 345px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-senter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_title {
+  font-family: " Ubuntu", sans-serif;
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #1e212c;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.main_list {
+  display: flex;
+  /* gap: 130px; */
+  padding-top: ;
+}
+.main-link {
+  font-family: " Ubuntu", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #9a9ca5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 60px;
+  &::active {
+  }
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+
+  padding-bottom: 60px;
+}
+.container1 {
+  background-color: #fffff;
+  width: 600px;
+  height: 482px;
+  border-radius: 5px;
+}
+.main-img {
+  border-radius: 2px;
+}
+.container1-text {
+  font-family: " Ubuntu", sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 13px;
+}
+
+.container-list {
+  padding-left: 14px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  font-family: ;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #787a80;
+  /* padding-bottom: 16px; */
+}
+.text {
+  font-family: " Ubuntu", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 24px;
+  padding-top: 16px;
+  color: #424551;
+  padding-bottom: 22px;
+}
+.main-btn {
+  display: flex;
+}
+.main-btn__list {
+  display: flex;
+  gap: 20px;
+  padding-top: 60px;
+  padding-bottom: 180px;
+  font-family: "  Ubuntu", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #424551;
+  &::hover {
+    color: #ff5a30;
+  }
+  &::active {
+    color: #ff5a30;
+  }
+}
